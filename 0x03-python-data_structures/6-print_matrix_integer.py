@@ -5,5 +5,5 @@ def print_matrix_integer(matrix=[[]]):
             if list.index(int) < (len(list) - 1):
                 print("{:d}".format(int), end=" ")
             else:
-                print("{:d}".format(int))
+                print("{:d}".format(int), end="")
                 print()
